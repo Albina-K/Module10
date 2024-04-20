@@ -48,4 +48,9 @@ namespace Module10
             
         }
     }
+
+    public interface IWorker
+    {
+        void Work();
+    }
 }
