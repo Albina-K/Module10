@@ -26,4 +26,26 @@ namespace Module10
     {
 
     }
+
+
+
+    public interface ILogger2
+    {
+        void Event();
+        void Error();
+
+    }
+
+    public class Logger : ILogger2
+    {
+        public void Error()
+        {
+            
+        }
+
+        public void Event()
+        {
+            
+        }
+    }
 }
